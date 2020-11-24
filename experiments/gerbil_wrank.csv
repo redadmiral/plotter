@@ -1,0 +1,12 @@
+graph,wsim,wrank,exprank,expsim,lowlatency
+dbpedia_500_4_sg_200,0,0,1,1,FALSE
+dbpedia_500_4_sg_200,0,0.1,1,1,FALSE
+dbpedia_500_4_sg_200,0,0.2,1,1,FALSE
+dbpedia_500_4_sg_200,0,0.3,1,1,FALSE
+dbpedia_500_4_sg_200,0,0.4,1,1,FALSE
+dbpedia_500_4_sg_200,0,0.5,1,1,FALSE
+dbpedia_500_4_sg_200,0,0.6,1,1,FALSE
+dbpedia_500_4_sg_200,0,0.7,1,1,FALSE
+dbpedia_500_4_sg_200,0,0.8,1,1,FALSE
+dbpedia_500_4_sg_200,0,0.9,1,1,FALSE
+dbpedia_500_4_sg_200,0,1,1,1,FALSE

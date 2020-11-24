@@ -1,0 +1,6 @@
+graph,wsim,wrank,exprank,expsim,lowlatency
+dbpedia_500_4_cbow_200,0.5,0.3,0.1,1,FALSE
+dbpedia_500_4_sg_100,0.5,0.3,0.1,1,FALSE
+wikidata_pbg,0.5,0.3,0.1,1,FALSE
+dbpedia_500_4_sg_200,0.5,0.3,0.1,1,FALSE
+dbpedia_500_4_cbow_100,0.5,0.3,0.1,1,FALSE

@@ -1,0 +1,62 @@
+# AufdenSpurenJüdischenLebens
+a Article, 1
+Ortwin Beisbart und Antje Yael Deusel a "Autorenduo" ., 0
+OrChajim a Gemeindezentrum ., 0
+Jonas Glüsenkamp a ZweiterBürgermeiser ., 0
+"Jüdisches Bamberg. Ein Gang durch die Stadt" a Buch ., 0
+
+#Lehrer nicht allein lassen
+
+MarkusKaiser affiliated_with Nürnberg ., 0
+MarkusKaiser a Trainer ., 0
+MarkusKaiser a Medienprofessor ., 1
+
+#WeilErSpielenWollte
+
+#SchutzAndererIstZweitrangig
+
+JohannesLeder a Autor ., 0
+AlexanderPastukhov a Autor ., 0
+AstridSchütz a Autor., 0
+"Comprehensive Results in Social Psychology" a Fachzeitschrift ., 0
+JohannesLeder a Erstautor ., 1
+
+# Sind die Aufsichtsratsbezüge der Stadträte zu hoch?
+ClaudiaJohn a Stadtrat ., 1
+GerhardSeitz a  Professor ., 1
+GerhardSeitz a  Doktor ., 0 
+GerhardSeitz a  Stadtrat ., 0
+
+PaulaRingelhahn a Hauptkommissar ., 1
+FelixVoss a Hauptkommissar ., 0
+
+# Erneuter Todesfall in Bamberg
+
+# Wappnen isch für Klimawandel
+
+AndreasStarke a Oberbürgermeister ., 1 
+AndreasStarke a Bamberger ., 0
+JohannKalb a Landrat ., 1
+Glüsenkamp a Bürgermeister ., 1
+
+# Seniorenbeirat arbeitet jetzt in fünf Arbeitsgruppen
+
+WolfgangBudde a Vorsitzender ., 0
+WolfgangBudde a Vertreter ., 0
+StefanieHahn a Seniorenbeauftragte ., 0
+ AndreasStarke a Oberbürgermeister ., 1 
+
+# Seminare für Wiedereinstieg
+
+BiancaHeger a BeauftragteFürChancengleichheitAmArbeitsmarkt ., 0
+
+# OB Starke nimmt Felix in Schutz
+
+BertramFelix a Finanzreferent ., 0
+AndreasStarke a Oberbürgermeister ., 0
+
+# FallzahlenWeiterhinHoch
+
+Merkel a Bundeskanzlerin ., 0
+
+
