@@ -1,0 +1,85 @@
+﻿% This file was created by tikzplotlib v0.9.4.
+\begin{tikzpicture}
+
+\begin{axis}[
+legend cell align={left},
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, draw=white!80!black},
+tick align=outside,
+tick pos=left,
+title={Weight string similarity},
+x grid style={white!69.0196078431373!black},
+xlabel={0},
+xmin=-0.05, xmax=1.05,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ylabel={from 1.},
+ymin=0, ymax=1,
+ytick style={color=black}
+]
+\addplot [semithick, color0]
+table {%
+0 0.3689
+0.1 0.3877
+0.2 0.391
+0.3 0.4054
+0.4 0.3971
+0.5 0.396
+0.6 0.4076
+0.7 0.3949
+0.8 0.411
+0.9 0.4015
+1 0.4098
+};
+\addlegendentry{Micro F1 score}
+\addplot [semithick, color1]
+table {%
+0 0.3401
+0.1 0.3575
+0.2 0.3605
+0.3 0.3738
+0.4 0.3661
+0.5 0.3651
+0.6 0.3758
+0.7 0.3641
+0.8 0.3789
+0.9 0.3702
+1 0.3779
+};
+\addlegendentry{Micro Precision}
+\addplot [semithick, color2]
+table {%
+0 0.403
+0.1 0.4236
+0.2 0.4272
+0.3 0.4429
+0.4 0.4338
+0.5 0.4326
+0.6 0.4453
+0.7 0.4314
+0.8 0.4489
+0.9 0.4387
+1 0.4477
+};
+\addlegendentry{Micro Recall}
+\end{axis}
+
+\end{tikzpicture}
+ro Precision}
+\addplot [semithick, color2]
+table {%
+0 0.403
+0.1 0.4236
+0.2 0.4272
+0.3 0.4429
+0.4 0.4338
+0.5 0.4326
+0.6 0.4453
+0.7 0.4314
+0.8 0.4489
+0.9 0.4387
+1 0.4477
+};
+\addlegendentry{Micro Recall}
+\end{axis}
+
+\end{tikzpicture}

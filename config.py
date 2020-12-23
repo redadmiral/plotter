@@ -1,7 +1,7 @@
 PLOT_TYPES = ["tikz", "matplotlib"]
 
 GERBIL_BASE_URL = "http://141.13.94.164:1234/gerbil/"
-FDIS_BASE_URL = "https://www.vm14.frontend.kinf.wiai.uni-bamberg.de"
+FDIS_BASE_URL = "http://localhost"
 FDIS_GERBIL_ENDPOINT = "gerbil"
 
 GRAPH = [

@@ -65,4 +65,4 @@ def create_query(fdis_urls: Dict[str, str]) -> str:
 
 
 if __name__ == '__main__':
-    dispatch_tests(["wsim"])
+    dispatch_tests(["nil"])

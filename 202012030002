@@ -1,0 +1,46 @@
+% This file was created by tikzplotlib v0.9.4.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.12156862745098,0.466666666666667,0.705882352941177}
+\definecolor{color1}{rgb}{1,0.498039215686275,0.0549019607843137}
+\definecolor{color2}{rgb}{0.172549019607843,0.627450980392157,0.172549019607843}
+
+\begin{axis}[
+legend cell align={left},
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, draw=white!80!black},
+tick align=outside,
+tick pos=left,
+title={news100 (uploaded), A2KB, graph},
+x grid style={white!69.0196078431373!black},
+xlabel={rdf2vec-dbpsg100-},
+xmin=-0.05, xmax=1.05,
+xtick style={color=black},
+xtick={-0.2,0,0.2,0.4,0.6,0.8,1,1.2},
+xticklabel style = {rotate=15.0},
+xticklabels={,rdf2vec-dbpsg100-wd,,,,,,},
+y grid style={white!69.0196078431373!black},
+ylabel={from 1.},
+ymin=0, ymax=1,
+ytick style={color=black}
+]
+\addplot [semithick, color0]
+table {%
+0 0.3944
+1 0.3982
+};
+\addlegendentry{Micro F1 score}
+\addplot [semithick, color1]
+table {%
+0 0.3636
+1 0.3672
+};
+\addlegendentry{Micro Precision}
+\addplot [semithick, color2]
+table {%
+0 0.4308
+1 0.435
+};
+\addlegendentry{Micro Recall}
+\end{axis}
+
+\end{tikzpicture}

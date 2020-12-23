@@ -1,0 +1,70 @@
+% This file was created by tikzplotlib v0.9.4.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.12156862745098,0.466666666666667,0.705882352941177}
+\definecolor{color1}{rgb}{1,0.498039215686275,0.0549019607843137}
+\definecolor{color2}{rgb}{0.172549019607843,0.627450980392157,0.172549019607843}
+
+\begin{axis}[
+legend cell align={left},
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, draw=white!80!black},
+tick align=outside,
+tick pos=left,
+title={news100 (uploaded), A2KB, wrank},
+x grid style={white!69.0196078431373!black},
+xlabel={0},
+xmin=-0.05, xmax=1.05,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ylabel={from 1.},
+ymin=0, ymax=1,
+ytick style={color=black}
+]
+\addplot [semithick, color0]
+table {%
+0 0.4104
+0.1 0.4104
+0.2 0.4054
+0.3 0.4065
+0.4 0.3988
+0.5 0.4209
+0.6 0.4065
+0.7 0.4076
+0.8 0.4054
+0.9 0.3977
+1 0.3949
+};
+\addlegendentry{Micro F1 score}
+\addplot [semithick, color1]
+table {%
+0 0.3784
+0.1 0.3784
+0.2 0.3738
+0.3 0.3748
+0.4 0.3677
+0.5 0.3881
+0.6 0.3748
+0.7 0.3758
+0.8 0.3738
+0.9 0.3666
+1 0.3641
+};
+\addlegendentry{Micro Precision}
+\addplot [semithick, color2]
+table {%
+0 0.4483
+0.1 0.4483
+0.2 0.4429
+0.3 0.4441
+0.4 0.4356
+0.5 0.4598
+0.6 0.4441
+0.7 0.4453
+0.8 0.4429
+0.9 0.4344
+1 0.4314
+};
+\addlegendentry{Micro Recall}
+\end{axis}
+
+\end{tikzpicture}

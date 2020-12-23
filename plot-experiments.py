@@ -19,16 +19,15 @@ tests = ["A2KB", "ER", "D2KB"]
 """
 
 columns = ['Annotator',              'Dataset',           'Unnamed: 2',
-       'Macro F1 score',      'Macro Precision',         'Macro Recall']
+       'Micro F1 score',      'Micro Precision',         'Micro Recall']
 wanted_plots = {
     "news100 (uploaded)": ["A2KB"]
 }
 
-experiment_ids = pd.read_csv("dispatched_experiments.csv")
+experiment_ids = pd.read_csv("experiments/plot-urls.csv")
 plots = list()
 for id in experiment_ids["id"]:
     url = config.GERBIL_BASE_URL + "experiment?id=" + str(id)
     experiment = Experiment(URL=url, measures=columns)
-    plots.append(experiment.create_plots(wanted_plots))
-
-plt.show()
+    plot = experiment.create_plots(wanted_plots)
+    tikzplotlib.save(str(id))
